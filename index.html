@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="calc.css"/>
+</head>
+	<div id="display">
+	<body>
+		<h3 style="font-family:Verdana; font-size:30px; color:blue; text-align:center"> A simple calculator</h3>
+		<script src="calc.js"></script>
+			<table border= "4px">
+				<tr>
+          <th colspan="4">
+          	<input id="text" type="textbox" name="numbers" size="20px"/>
+          </th>
+				</tr>
+				<tr>
+	    			<td>
+              <button class="btn number" value="1" onclick="setValue(this)">1</button>
+            </td>
+	      		<td>
+              <button class="btn number" value="2" onclick="setValue(this)">2</button>
+            </td>
+	       		<td>
+              <button class="btn number" value="3" onclick="setValue(this)">3</button>
+            </td>
+	       		<td>
+              <button class="btn number" value="/" onclick="setValue(this)">/</button>
+            </td>
+				</tr>
+				<tr>
+	     			<td>
+	     	 <button class="btn number" value="4" onclick="setValue(this)">4</button>
+	     	</td>
+	      		<td>
+	      	 <button class="btn number" value="5" onclick="setValue(this)">5</button>
+	      	</td>
+	       		<td>
+	       	 <button class="btn number" value="6" onclick="setValue(this)">6</button>
+	       	</td>
+	       		<td>
+	       	 <button class="btn number" value="*" onclick="setValue(this)">*</button>
+	       	</td>
+			 	</tr>	
+				<tr>
+	       			<td>
+	       	 <button class="btn number" value="7" onclick="setValue(this)"/>7</button>
+	       	</td>
+	      		<td>
+	      	 <button class="btn number" value="8" onclick="setValue(this)">8</button>
+	      	</td>
+	      		<td>
+	      	 <button class="btn number" value="9" onclick="setValue(this)">9</button>
+	      	</td>
+	      		<td><button class="btn number" value="+" onclick="setValue(this)">+</button>
+	      	</td>
+				</tr>
+				<tr>
+	       			<td>
+	       	 <button class="btn number" value="0" onclick="setValue(this)">0</button>
+	       	</td>
+	      		<td>
+	      	 <button class="btn number" value="CE" onclick="setValue(this)">CE</button>
+	      	</td>
+	      		<td>
+	      	 <button class="btn number" value="=" onclick="setValue(this)">=</button>
+	      	</td>
+	      		<td>
+	      	 <button class="btn number" value="-" onclick="setValue(this)">-</button>
+	      	</td>
+			</tr>
+			</table>
+		</body>
+	</div>
+<html/>

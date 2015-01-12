@@ -1,0 +1,18 @@
+table {
+	border: #4169e1 30px solid;
+	background-color: #c0c0c0;
+	float: auto;
+	margin-right: 30px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+th {
+	background-color: #ffffff;
+	height: 50px;
+}
+button {
+	height:50px;
+	width:50px;
+	color:#989898;
+	background-color: #2f4f4f;
+}
